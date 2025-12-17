@@ -1,6 +1,6 @@
 name: Actions Ecosystem Action Push Tag
 description: Push a Git tag.
-author: Actions Ecosystem
+author: step-security
 inputs:
   tag:
     description: A Git tag name.
