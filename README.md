@@ -1,8 +1,5 @@
 # Action Push Tag
 
-[![release][release-badge]][release]
-[![license][license-badge]][license]
-
 This is a GitHub Action to push a Git tag.
 
 It would be more useful to use this with other GitHub Actions' outputs.
@@ -44,13 +41,3 @@ jobs:
           tag: ${{ steps.bump-semver.outputs.new_version }}
           message: '${{ steps.bump-semver.outputs.new_version }}: PR #${{ github.event.pull_request.number }} ${{ github.event.pull_request.title }}'
 ```
-<!-- badge links -->
-
-[actions-workflow-lint]: https://github.com/step-security/action-push-tag/actions?query=workflow%3ALint
-[actions-workflow-lint-badge]: https://img.shields.io/github/workflow/status/step-security/action-push-tag/Lint?label=Lint&style=for-the-badge&logo=github
-
-[release]: https://github.com/step-security/action-push-tag/releases
-[release-badge]: https://img.shields.io/github/v/release/step-security/action-push-tag?style=for-the-badge&logo=github
-
-[license]: LICENSE
-[license-badge]: https://img.shields.io/github/license/actions-ecosystem/action-add-labels?style=for-the-badge
