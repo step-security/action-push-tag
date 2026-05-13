@@ -10,7 +10,7 @@ inputs:
     required: false
 runs:
   using: docker
-  image: 'docker://ghcr.io/step-security/action-push-tag:v1.0.1@sha256:078b582c8137abadd3a2bf1d7f38fb02423cd90f75977631860f1e9a352dfe02' #v1.0.1
+  image: 'docker://ghcr.io/step-security/action-push-tag:v1.0.1@sha256:86f3be5659e8ff8843f7021b0f57787aa2422613f6dadd4f0e8b20ff9cf577bf' #v1.0.1
 branding:
   icon: search
   color: yellow
